@@ -287,6 +287,7 @@ body{
     .Stranger_things_container{
         display: flex;
         background-color: black;
+        box-shadow: 0 0 2em 0 rgb(0,0,0);
         border: 1.5px solid rgba(139, 139, 139, 0.726);
         width: 50%;
         position: absolute;
@@ -899,6 +900,7 @@ body{
         background-color: black;
         border: 1.5px solid rgba(75, 74, 74, 0.726);
         width: 35vw;
+        box-shadow: 0 0 2em 0 rgb(0,0,0);
         position: absolute;
         top: 76%;
         transform: translate(35%, -50%);
@@ -1526,32 +1528,47 @@ body{
     .mobile_cover{
         /* border: 1px solid rgb(234, 8, 170); */
         width: 70vw;
+        box-sizing: border-box;
         /* z-index: 1; */
         position: relative;
-        display: block;
+        /* display: block; */
         margin: auto;
+        /* overflow: hidden; */
     }
     
     .Stranger_things_container{
         display: flex;
         background-color: black;
         border: 1.5px solid rgba(65, 63, 63, 0.726);
-        /* width: 35vw; */
+        /* width: 50vw; */
+        /* box-sizing: border-box; */
+        /* height: 13vh; */
         box-sizing: border-box;
         box-shadow: 0 0 2em 0 rgb(0,0,0);
         position: absolute;
         top: 76%;
-        transform: translate(0%, -50%);
+        transform: translate(10%, -50%);
         /* z-index: 1; */
         border-radius: 9px;
         align-items: center;
         justify-content: center;
         text-align: center;
     }
+
+.wording_container {
+    /* border: 1px solid brown; */
+    width: 25vw;
+    /* margin: 5px; */
+    /* position: absolute; */
+    gap: 7px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
     
     .StrangersThings_cover{
         /* border: 1px solid rgb(83, 235, 12); */
-        width: 18%;
+        width: 10vw;
         margin: 5px;
         position: relative;
     }
@@ -1559,33 +1576,45 @@ body{
     .wording_download_container{
         /* border: 1px solid rgb(12, 53, 235); */
         display: flex;
-        width: 72%;
+        transform: translate(0%, -0%);
+        /* flex-direction: row; */
+        width: 40vw;
+        /* height: 12vh; */
+        /* margin: auto; */
         align-items: center;
         justify-content: center;
         /* padding: 10px; */
         margin: 5px;
-        gap: 20px;
+        gap: 10px;
         position: relative;
         box-sizing: border-box;
     }
     
     .word_ST{
         /* border: 1px solid rgb(83, 235, 12); */
-        font-size: 13px;
+        font-size: 3vw;
+        width: 100%;
         margin-bottom: -10px;
+        /* flex-shrink: 1; */
+        /* flex-wrap: wrap; */
         /* width: 70px; */
     }
     
     .word_Down{
         /* border: 1px solid rgb(83, 235, 12); */
-        font-size: 11px;
+        font-size: 2vw;
         color: blue;
         /* width: 70px; */
     }
     
     .download_animated_icon{
         /* border: 1px solid rgb(83, 235, 12); */
-        width: 30px;
+        width: 5vw;
+        /* transform: translate(230%, -150%); */
+        /* margin-left: 80%; */
+        /* margin-top: 10%; */
+        /* display: flex; */
+        /* position: relative; */
         /* background-size: 100%; */
     }
     
@@ -1812,7 +1841,7 @@ body{
     .footer{
         /* border: 1px solid rgb(222, 238, 4); */
         color: white;
-        width: 990px;
+        /* width: 990px; */
         margin: 50px auto;
     }
     
@@ -1829,8 +1858,8 @@ body{
     
     .footer_column{
         /* border: 1px solid rgb(35, 4, 238); */
-        display: flex;
-        gap: 110px;
+        /* display: flex; */
+        /* gap: 110px; */
         padding: 10px;
         font-size: 14px;
     }
