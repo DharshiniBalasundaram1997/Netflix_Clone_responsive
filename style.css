@@ -622,7 +622,7 @@ body{
     }
     
     .tint{
-        border: 1px solid green;
+        /* border: 1px solid green; */
         /* transform: scale(1.1); */
         /* width: 100%; */
         height: 110vh;
@@ -1837,10 +1837,19 @@ body{
     /* frequently asked questions */
     
     
+
+
+
+
+
+
+
+
+
     /* footer */
     .footer{
         /* border: 1px solid rgb(222, 238, 4); */
-        color: white;
+        color: rgb(185, 185, 185);
         /* width: 990px; */
         margin: 50px auto;
     }
@@ -1852,7 +1861,7 @@ body{
     
     .Call_number{
         text-decoration: none;
-        color: white;
+        color: rgb(185, 185, 185);
         cursor: pointer;
     }
     
@@ -1867,32 +1876,38 @@ body{
     .underline{
         text-decoration: underline;
     }
-    
+
+    .margin_bottom{
+        /* border: 1px solid rgb(231, 30, 16); */
+        margin-bottom: 40px;
+    }
     .column_1{
         /* border: 1px solid rgb(222, 238, 4); */
         /* display: inline-block; */
-        border: none;
+        /* border: none; */
     }
     
     .column_2{
-        /* border: 1px solid rgb(222, 238, 4); */
+        border: 1px solid rgba(4, 222, 238, 0);
         /* display: inline-block; */
         text-decoration: underline;
         cursor: pointer;
     }
     
     .column_3{
-        /* border: 1px solid rgb(222, 238, 4); */
+        border: 1px solid rgba(222, 238, 4, 0);
         /* display: inline-block; */
         text-decoration: underline;
         cursor: pointer;
+        transform: translateY(-219%);
     }
     
     .column_4{
-        /* border: 1px solid rgb(222, 238, 4); */
+        border: 1px solid rgba(222, 238, 4, 0);
         /* display: inline-block; */
         text-decoration: underline;
         cursor: pointer;
+        transform: translateY(-245%);
     }
     
     .cursor_pointer{
